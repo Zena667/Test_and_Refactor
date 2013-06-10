@@ -47,7 +47,7 @@ class TicTacToe
 
   # Check if the game has been tied 
   def tied?
-    @board.flatten.none? {|string| string =~ /\d/ }
+    @board.board.flatten.none? {|string| string =~ /\d/ }
   end
 
   def ask_player_to_play

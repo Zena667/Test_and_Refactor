@@ -1,5 +1,5 @@
 class Board
-
+attr_accessor :board
   # This is an example of a Ruby Constant
   GAP = "  "
 
