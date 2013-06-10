@@ -61,4 +61,9 @@ attr_accessor :board
   def draw_board
     "\n" + @board.map { |row| draw_row(row) }.join(draw_line)
   end
+
+  def flatten
+    @board.flatten
+  end
+
 end

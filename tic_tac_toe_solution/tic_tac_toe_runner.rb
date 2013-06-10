@@ -2,7 +2,7 @@ require_relative './tic_tac_toe'
 
 game = TicTacToe.new
 loop do
-	game.draw_board
+	print game.draw_board
 	print game.ask_player_to_play
 	space_num = gets.to_i
 	game.mark_space(space_num)

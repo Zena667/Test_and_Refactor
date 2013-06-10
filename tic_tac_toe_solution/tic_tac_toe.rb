@@ -59,7 +59,9 @@ class TicTacToe
   end
 
   def draw_board
-    print @board.draw_board
+    @board.draw_board
   end
+
+
 
 end
