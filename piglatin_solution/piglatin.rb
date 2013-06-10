@@ -33,11 +33,11 @@ class PiglatinConverter
   end
 end
 
-word = gets.chomp
+# word = gets.chomp
 
 # Class method way
 
-puts PiglatinConverter.convert(word)
+# puts PiglatinConverter.convert(word)
 
 # Instance method way
 
